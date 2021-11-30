@@ -1,0 +1,21 @@
+{
+  "name": "store-ussd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ussd.js",
+  "scripts": {
+    "start": "nodemon ussd.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Tebogo Sewape sewapetj@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "node-localstorage": "^2.2.1"
+  }
+}
